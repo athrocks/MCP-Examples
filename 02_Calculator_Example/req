@@ -1,0 +1,9 @@
+python -m venv venv  
+venv\Scripts\Activate.ps1  
+
+pip install mcp fastmcp
+
+python server.py
+
+//in diff terminal
+python client.py
